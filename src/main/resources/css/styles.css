@@ -1,0 +1,221 @@
+/* Estilo moderno */
+.root {
+    -fx-font-family: "Poppins";
+}
+
+/* Classe para painéis laterais (LeftPanel, RightPanel) */
+.painel-base {
+    -fx-background-color: #051a33;
+    -fx-border-color: #0e4d92;
+    -fx-border-width: 2;
+    -fx-padding: 15;
+}
+
+
+/* Títulos no topo dos painéis */
+.titulo-painel {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 0 0 15 0;
+    -fx-alignment: center;
+}
+
+/* Texto de estatísticas e descrições gerais */
+.stat-label, .texto-padrao {
+    -fx-text-fill: #adb5bd;
+    -fx-font-size: 14px;
+}
+
+/* Botões */
+.botao-base {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+
+    -fx-pref-width: 180px;
+    -fx-pref-height: 50px;
+
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+
+    -fx-cursor: hand;
+}
+
+/* Hover genérico */
+.botao-base:hover {
+    -fx-opacity: 0.9;
+}
+
+/* Disabled genérico */
+.botao-base:disabled {
+    -fx-opacity: 0.5;
+}
+
+
+
+.botao-destaque {
+    -fx-background-color: #e85100;
+}
+
+.botao-destaque:hover {
+    -fx-background-color: #ff6a00;
+}
+
+.botao-oficina {
+    -fx-font-size: 10px;
+
+    -fx-pref-width: 180px;
+    -fx-pref-height: 40px;
+}
+
+.botao-sair {
+    -fx-background-color: #c0392b;
+    -fx-border-color: #c44f41;
+    -fx-border-width: 1;
+}
+
+.botao-sair:hover {
+    -fx-background-color: #bf5c4f;
+}
+
+
+
+
+
+/* Vida a acabar*/
+.stat-critical {
+    -fx-text-fill: #ff4d4d;
+    -fx-font-weight: bold;
+}
+
+
+
+/*  CARDS DOS DRONES */
+.drone-card {
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.drone-card-normal {
+    -fx-background-color: #10263b;
+    -fx-text-fill: white;
+    -fx-border-color: #1a3a54;
+}
+
+.drone-card-normal:hover {
+    -fx-background-color: #24527a;
+    -fx-cursor: hand;
+}
+
+.drone-card-selecionado {
+    -fx-background-color: #00f2ff;
+    -fx-text-fill: #0e2338;
+    -fx-border-color: white;
+}
+
+.drone-card-perdido {
+    -fx-background-color: #2e0b0b;
+    -fx-text-fill: #808080;
+    -fx-border-color: #ff0000;
+    -fx-opacity: 0.6;
+    -fx-cursor: default;
+}
+
+.sub-painel-box {
+    -fx-border-color: #1a3a54;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #10263b;
+    -fx-padding: 10;
+}
+
+.sub-titulo-painel {
+    -fx-text-fill: #5583a6;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+
+.fase-label {
+    -fx-text-fill: #7fa8cc;
+    -fx-font-size: 11px;
+}
+
+.fuel-bar {
+    -fx-control-inner-background: #0d1e2d;
+    -fx-background-insets: 0;
+}
+.fuel-bar .bar {
+    -fx-background-color: #3da5d9;
+    -fx-background-radius: 2;
+}
+
+.defesa-ativo {
+    -fx-background-color: #1b4d22;
+    -fx-border-color: #2e7d32;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #81c784;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.defesa-inativo {
+    -fx-background-color: #10263b;
+    -fx-border-color: #1a3a54;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #5583a6;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+
+.defesa-ativo-txt {
+    -fx-text-fill: #81c784;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.defesa-inativo-txt {
+    -fx-text-fill: #5583a6;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+}
+
+.desistir-btn{
+    -fx-background-color: #631d1d;
+    -fx-border-color: #8f1b1b;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #959595;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 35px;
+    -fx-cursor: hand;
+}
+
+.desistir-btn:hover{
+    -fx-background-color: #750e0e;
+    -fx-text-fill: #ffffff;
+}
+
+.sound-toggle {
+    -fx-text-fill: #adb5bd;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.sound-toggle .box {
+    -fx-background-color: #10263b;
+    -fx-border-color: #1a3a54;
+}
+
+.sound-toggle:selected .mark {
+    -fx-background-color: #3e85c7;
+}
